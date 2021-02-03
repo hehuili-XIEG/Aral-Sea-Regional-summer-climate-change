@@ -1,5 +1,6 @@
 # Aral-Sea-Regional-summer-climate-change
 TITLE:Impacts of historical land use/cover change (1980-2015) on summer climate in the Aral Sea region
+
 Step 1: replace the land cover in default ECOCLIMAP  (ECOCLIMAP.m)
 
 Step 2: calculate the LAI profile in Central Asia (LAI.pr.py)
@@ -20,11 +21,8 @@ Step 9: extract the modeling result and compare with observation
 
 Step 10: repeat step 6 - step 8 but for period 1980-2012
 
-Step 11: 
+Step 11: calculate the mean value of Case 3 and Case 4, then conduct student-t test to plot the significant difference (pvalue < 0.01) (Ttest_TP.R)
 
+Step 12: calculate the trend of T2avg, T2max, T2min and DTR et al based on line square fitting method, significant at 1% level. (LS_CHG.R)
 
-The *.sh files are used for running ALARO-SURFEX model
-The extract_station*.R files are used for extract the simulation in meteorological stations
-The Ttest_TP.R is used for student t test and only plot the grids pass the significant test.
-The LS_CHG.R is used for calculating the trend of temperature.
 The zip file is EC tower and land use land cover data.
