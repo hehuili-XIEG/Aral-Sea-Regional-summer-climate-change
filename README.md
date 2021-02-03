@@ -17,9 +17,9 @@ Step 7: run the 4 km runs over the Aral Sea region with default parameters for t
 
 Step 8: run the 4 km runs over the Aral Sea region with updated parameters for the period from  1980-1989 
 
-Step 9: extract the modeling result and compare with observation (ectract_)
+Step 9: extract the modeling result and compare with observation (ectract_station_day_t2m.R)
 
-Step 10: repeat step 6 - step 8 but for period 1980-2012
+Step 10: repeat step 6 - step 8 but for period 1980-2012 (script_outerdomain.sh, script_inerdomain.sh)
 
 Step 11: calculate the mean value of Case 3 and Case 4, then conduct student-t test to plot the significant difference (pvalue < 0.01) (Ttest_TP.R)
 
