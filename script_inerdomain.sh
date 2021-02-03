@@ -24,7 +24,7 @@ DAYINCREMENT={interval}
 
 ERADIR=$HOME
 #COUPLING=/scratch-a/alaros5/CASIA/12km
-COUPLING=/scratch-a/heheuili/CASIA/12km_sfx_50km
+COUPLING=/scratch-a/heheuili/CASIA/4km_sfx_50km
 REMOTE=gloin
 SAVEDIR=/mnt/HDS_ALD_TEAM/ALD_TEAM/peng/new_ecoclimap_4km
 #ARCHIVE=/mnt/HDS_ALD_TEAM/ALD_TEAM/peng/new_ecoclimap_4km
