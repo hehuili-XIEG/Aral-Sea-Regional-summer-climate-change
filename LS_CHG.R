@@ -1,4 +1,7 @@
-##########################33  MEAN ######################################
+##########################  MEAN ######################################
+## Created by HHL to calculate the trend of T2avg
+## signiicant at pvalue < 0.01 
+######################################################################
 rm(list=ls())
 
 workdir = "/scratch-a/heheuili/RData/T2M/Yearly/"
@@ -27,7 +30,7 @@ trend1 = array(NA,dim = c(500,500))
 for(i in 1:500){
   for(j in 1:500){
     tmpmean = preout1[i,j,2]
-    if(tmpmean<=0.1){
+    if(tmpmean<=0.01){
       trend1[i,j] = preout1[i,j,1]
     }
   }#j
